@@ -1,0 +1,16 @@
+[
+    "user_add_mean",
+    "user_del_mean",
+    "user_speak_mean",
+    "user_turns_mean",
+    "user_wh_mean",
+    "user_self_mean",
+    "user_us_mean",
+    "user_add_sd",
+    "user_del_sd",
+    "user_speak_sd",
+    "user_turns_sd",
+    "user_wh_sd",
+    "user_self_sd",
+    "user_us_sd"
+]
