@@ -15,14 +15,12 @@ This project provides a RESTful API for serving collaboration quality prediction
 ├── models/
 │   ├── trained_models/         # Serialized trained ML models
 │   └── model_evaluation/       # Evaluation metrics and visualization files
-├── notebooks/                  # Jupyter notebooks for exploration and development
-├── src/
-│   ├── api/
-│   │   └── main_api.py         # FastAPI main entrypoint
-│   └── training/
-│       └── build_model.py      # Script to train ML models
-├── tests/                      # Unit tests and test scripts
-└── venv/                       # Python virtual environment (optional, local only)
+└── src/
+    ├── api/
+    │   └── main_api.py         # FastAPI main entrypoint
+    └── training/
+        └── build_model.py      # Script to train ML models
+
 ```
 
 ---
@@ -74,20 +72,11 @@ uvicorn src.api.main_api:app --reload
 - **Models:**  
   Trained models are stored in `models/trained_models/`. Evaluation results (metrics, plots) are in `models/model_evaluation/`.
 
-- **Testing:**  
-  Place unit and integration tests inside the `tests/` directory.
-
-- **Notebooks:**  
-  Use `notebooks/` for data exploration, prototyping, and analysis.
 
 ---
 
 ## 🧾 License
 
-Add your preferred license here (e.g., MIT, Apache 2.0).
+MIT license
 
 ---
-
-## 🙋‍♂️ Author
-
-Developed by [Your Name]
